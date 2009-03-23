@@ -1,0 +1,32 @@
+servezip.py
+===========
+
+
+Run with:
+  python servezip.py
+
+Point your browser at http://localhost:8000/ and the contents of the directory where you started servezip.py will be made available (including any subdirectories). If you want to download the contents of any particular directory, navigate to it and add the name of the zip file you want to create to the end of the URL.
+
+For example, to download all files and subdirectories of the directory http://localhost:8000/foo/bar enter the url:
+	http://localhost:8000/foo/bar/foobar.zip
+
+The zip file can have any name you want, as long as there isn't a zip file in that directory with that name already (otherwise you'll just get the contents of the existing zip file).
+
+
+Warning
+=======
+
+This will make the contents of your directories available to anyone who can make a HTTP connection to your machine. This might be ok on an internal network but probably not what you want on a machine connected directly to the public Internet.
+
+
+Bugs
+====
+
+Probably.
+
+
+
+LICENSE
+=======
+
+This code is public domain, do what you want with it. There are no warranties.
